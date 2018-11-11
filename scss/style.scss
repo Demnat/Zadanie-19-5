@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    // border: 1px solid red;
+}
+
+.index {
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+    background-color: #CFEFC1;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    #app {
+        padding: 0;
+        padding: 20px;
+        width: 25%;  
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #93DD73;
+
+        div {
+
+            background-color: red;
+
+            h1 {
+                color: #004C39;
+                font: 20px Verdana, sans-serif;
+            }
+
+            input {
+                margin: 5px 0;
+                padding: 5px;
+                width: 100%;
+                border-radius: 3px;
+                border: 2px solid #59AA96;
+                background-color: #ADD7CC;
+                color: #004C39;
+            }
+
+        }
+
+    }
+
+}
